@@ -1,15 +1,19 @@
   <form>
-
+    {{miJuego.nombre}}
   <div class="container">
     <label><b>Numero ingresado</b></label>
-    <input type="text" id="num" placeholder="Numero ingresado" name="numeroIngresado" [(ngModel)]="numeroIngresado" required>
+    <input type="number" id="num" placeholder="Numero ingresado" name="numeroIngresado" [(ngModel)]="miJuego.numeroIngresado" required>
   </div>
   
     <div class="container">
-    <button (click)="GenerarNuevo()">Nuevo</button> <!--chequeo con el f12, en la consola!-->
-    <!--<button (click)="Verificar({num})">Verificar</button>-->
+    <button (click)="miJuego.GenerarNuevo()">Nuevo</button> 
+    <button (click)="miJuego.Verificar()">Verificar</button>
+    
+    <p [hidden]="!miJuego.Gano">Ganó</p>
+    <p [hidden]="miJuego.Gano">No Ganó</p>
+    
   </div>
-{{numeroIngresado}} 
+
 
  
 </form>
