@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AdivinaElNumeroComponent } from './componentes/adivina-el-numero/adivina-el-numero.component';
+import { JuegoComponent } from './Clase/juego/juego.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdivinaElNumeroComponent,
+    JuegoComponent
   ],
   imports: [
     BrowserModule,
