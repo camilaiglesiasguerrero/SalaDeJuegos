@@ -1,3 +1,5 @@
 1. Crear proyecto Angular: SalaDeJuegos
 2. Crear componente: AdivinaElNumero
 3. Crear Clase: Juegos (ng g class Clases/Juego -> genera archivo .ts
+4. Declaro variables:
+ - let nombre: string; let numeroSecreto: int; let gano: bool; let jugador: string;
