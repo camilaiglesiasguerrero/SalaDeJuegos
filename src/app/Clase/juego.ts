@@ -3,7 +3,11 @@ export class Juego {
     numeroSecreto: number;
     Gano: boolean;
     Jugador: string;
+    numeroIngresado: number;
 
+constructor(elJuego: string) { 
+  this.nombre = elJuego;
+  }
 
 public GenerarNuevo():void{
   this.numeroSecreto = Math.floor(Math.random()*100+1);

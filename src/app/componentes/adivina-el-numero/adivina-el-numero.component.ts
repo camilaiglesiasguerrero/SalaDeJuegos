@@ -11,7 +11,7 @@ export class AdivinaElNumeroComponent implements OnInit {
   miJuego: Juego;
 
   constructor() { 
-  this.miJuego = new Juego();
+  this.miJuego = new Juego("Adivina el Número");
   }
 
   ngOnInit() {
