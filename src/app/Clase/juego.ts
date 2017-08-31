@@ -1,6 +1,12 @@
 export class Juego {
-    let nombre : string;
-    let numeroSecreto: int;
-    let Gano: bool;
-    let Jugador: nombre;
+    nombre : string;
+    numeroSecreto: number;
+    Gano: boolean;
+    Jugador: string;
+
+
+public GenerarNuevo():void{
+  this.numeroSecreto = Math.floor(Math.random()*100+1);
+  console.info("Numero: ", this.numeroSecreto);
+  }
 }
