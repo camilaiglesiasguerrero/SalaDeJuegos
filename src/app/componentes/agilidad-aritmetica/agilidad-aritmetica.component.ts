@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Juego} from '../../Clase/juego';
+import { Agilidad} from '../../Clase/agilidad';
 
 
 @Component({
@@ -9,9 +9,9 @@ import { Juego} from '../../Clase/juego';
 })
 export class AgilidadAritmeticaComponent implements OnInit {
 
-  miJuego: Juego;
+  miJuego: Agilidad;
   constructor() {
-    this.miJuego = new Juego("Agilidad Aritmética");
+    
    }
 
   ngOnInit() {

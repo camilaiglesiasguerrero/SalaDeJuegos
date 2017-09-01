@@ -3,3 +3,24 @@
 3. Crear Clase: Juegos (ng g class Clases/Juego -> genera archivo .ts
 4. Declaro variables:
  - let nombre: string; let numeroSecreto: int; let gano: bool; let jugador: string;
+5. creo juego
+.....
+
+creo boton nuevo
+creo boton verificar
+input numero ingresado:
+
+ocultar o no botones dependiendo si gano o no. 
+--------------------
+Otro juego.
+Agilidad aritmetica
+
+
+Numero random
+operador random
+numero random 
+
+en dato bindeado el usuario pone el resultado
+Verificar
+mido tiempo
+
