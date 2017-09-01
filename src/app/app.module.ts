@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AdivinaElNumeroComponent } from './componentes/adivina-el-numero/adivina-el-numero.component';
+import { AgilidadAritmeticaComponent } from './Componentes/agilidad-aritmetica/agilidad-aritmetica.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdivinaElNumeroComponent,
+    AgilidadAritmeticaComponent,
   ],
   imports: [
     BrowserModule,

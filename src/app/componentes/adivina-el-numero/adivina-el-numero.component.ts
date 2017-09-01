@@ -17,5 +17,4 @@ export class AdivinaElNumeroComponent implements OnInit {
   ngOnInit() {
   }
   
-  
 }
